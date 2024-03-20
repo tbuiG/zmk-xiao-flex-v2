@@ -15,14 +15,14 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5      &kp N6     &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T       &kp Y      &kp U     &kp I      &kp O     &kp P     &kp BSLH
-&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G       &kp H      &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B       &kp N      &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHIFT
-           &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                         &kp UP    &kp DOWN   &kp LBKT  &kp RBKT
-                                          &kp LCTRL  &kp LALT               &kp RGUI  &kp RCTRL
-                                &kp BSPC  &kp DEL    &kp HOME    &kp PG_UP  &kp RET   &kp SPACE
-                                                     &mo 1       &kp PG_DN
+&kp GRAVE     &kp N1        &kp N2    &kp N3    &kp N4      &kp N5          &kp N6          &kp N7     &kp N8         &kp N9    &kp N0    &kp MINUS
+&kp TAB       &kp Q         &kp W     &kp E     &kp R       &kp T           &kp Y           &kp U      &kp I          &kp O     &kp P     &kp BSLH
+&kp CAPSLOCK  &kp A         &kp S     &kp D     &kp F       &kp G           &kp H           &kp J      &kp K          &kp L     &kp SEMI  &kp SQT
+&kp LSHFT     &kp Z         &kp X     &kp C     &kp V       &kp B           &kp N           &kp M      &kp COMMA      &kp DOT   &kp FSLH  &kp EQUAL
+              &kp LEFT_ALT  &kp CAPS  &mo 2     &mo 1                                       &kp PG_UP  &kp PAGE_DOWN  &kp LBKT  &kp RBKT
+                                                &kp DELETE  &kp ESCAPE                      &kp RGUI   &kp RCTRL
+                                      &kp BSPC  &kp SPACE   &kp LEFT_ALT    &kp KP_NUMLOCK  &kp END    &kp ENTER
+                                                            &kp LCTRL       &kp HOME
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -30,14 +30,40 @@
 
         layer_1 {
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &kp KP_NUMLOCK  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &trans
-&trans      &trans        &trans        &trans        &trans        &trans          &trans  &kp N7          &kp N8        &kp N9         &kp KP_MINUS     &trans
-&trans      &trans        &trans        &trans        &trans        &trans          &trans  &kp N4          &kp N5        &kp N6         &kp KP_PLUS      &trans
-&trans      &trans        &trans        &trans        &trans        &trans          &trans  &kp N1          &kp N2        &kp N3         &kp RET          &trans
-            &trans        &trans        &trans        &trans                                &kp UP          &kp DOWN      &kp N0         &kp DOT
-                                                      &trans        &bootloader             &trans          &trans
-                                        &out OUT_TOG  &trans        &sys_reset      &trans  &trans          &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans           &kp KP_NUMLOCK  &kp KP_EQUAL  &kp KP_DIVIDE  &kp ASTERISK  &trans
+&trans      &trans        &trans        &trans        &trans        &trans          &trans           &kp N7          &kp N8        &kp N9         &kp KP_MINUS  &trans
+&trans      &trans        &trans        &trans        &trans        &trans          &kp PERIOD       &kp N4          &kp N5        &kp N6         &kp KP_PLUS   &trans
+&trans      &trans        &trans        &trans        &trans        &trans          &kp KP_NUMBER_0  &kp N1          &kp N2        &kp N3         &kp RET       &trans
+            &trans        &trans        &trans        &trans                                         &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN       &kp RIGHT
+                                                      &trans        &bootloader                      &trans          &trans
+                                        &out OUT_TOG  &trans        &sys_reset      &trans           &trans          &trans
                                                                     &trans          &trans
+            >;
+        };
+
+        layer_2 {
+            bindings = <
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7  &kp F8          &kp F9        &kp F10         &kp F11          &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans        &trans          &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans        &trans          &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans        &trans          &trans           &trans
+        &trans  &trans  &trans  &trans                    &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+                                &trans  &trans            &trans          &trans
+                        &trans  &trans  &trans    &trans  &trans          &trans
+                                        &trans    &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans
+                                &trans  &trans            &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+                                        &trans    &trans
             >;
         };
     };
