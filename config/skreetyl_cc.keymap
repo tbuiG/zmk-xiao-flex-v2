@@ -20,7 +20,7 @@
 &kp CAPSLOCK  &kp A         &kp S         &kp D     &kp F       &kp G           &kp H              &kp J            &kp K          &kp L     &kp SEMI  &kp SQT
 &kp LSHFT     &kp Z         &kp X         &kp C     &kp V       &kp B           &kp N              &kp M            &kp COMMA      &kp DOT   &kp FSLH  &kp EQUAL
               &kp LEFT_ALT  &kp LEFT_GUI  &mo 2     &mo 1                                          &kp PG_UP        &kp PAGE_DOWN  &kp LBKT  &kp RBKT
-                                                    &kp DELETE  &kp ESCAPE                         &kp C_VOLUME_UP  &kp K_MUTE
+                                                    &kp DELETE  &kp ESCAPE                         &kp C_VOLUME_UP  &kp C_MUTE
                                           &kp BSPC  &kp SPACE   &kp LEFT_ALT    &kp C_VOLUME_DOWN  &kp END          &kp ENTER
                                                                 &kp LCTRL       &kp HOME
             >;
@@ -30,14 +30,14 @@
 
         layer_1 {
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans           &kp KP_NUMLOCK  &kp KP_EQUAL  &kp KP_DIVIDE  &kp ASTERISK  &trans
-&trans      &trans        &trans        &trans        &trans        &trans          &trans           &kp N7          &kp N8        &kp N9         &kp KP_MINUS  &trans
-&trans      &trans        &trans        &trans        &trans        &trans          &kp PERIOD       &kp N4          &kp N5        &kp N6         &kp KP_PLUS   &trans
-&trans      &trans        &trans        &trans        &trans        &trans          &kp KP_NUMBER_0  &kp N1          &kp N2        &kp N3         &kp RET       &trans
-            &trans        &trans        &trans        &trans                                         &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN       &kp RIGHT
-                                                      &trans        &bootloader                      &trans          &trans
-                                        &out OUT_TOG  &trans        &sys_reset      &trans           &trans          &trans
-                                                                    &trans          &trans
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans           &kp KP_NUMLOCK  &kp KP_EQUAL  &kp KP_DIVIDE  &kp ASTERISK  &trans
+&bt BT_CLR_ALL  &trans        &trans        &trans        &trans        &trans          &trans           &kp N7          &kp N8        &kp N9         &kp KP_MINUS  &trans
+&trans          &trans        &trans        &trans        &trans        &trans          &kp PERIOD       &kp N4          &kp N5        &kp N6         &kp KP_PLUS   &trans
+&trans          &trans        &trans        &trans        &trans        &trans          &kp KP_NUMBER_0  &kp N1          &kp N2        &kp N3         &kp RET       &trans
+                &trans        &trans        &trans        &trans                                         &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN       &kp RIGHT
+                                                          &trans        &bootloader                      &trans          &trans
+                                            &out OUT_TOG  &trans        &sys_reset      &trans           &trans          &trans
+                                                                        &trans          &trans
             >;
         };
 
@@ -50,19 +50,6 @@
         &trans  &trans  &trans  &trans                    &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
                                 &trans  &trans            &trans          &trans
                         &trans  &trans  &trans    &trans  &trans          &trans
-                                        &trans    &trans
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans
-                                &trans  &trans            &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
                                         &trans    &trans
             >;
         };
