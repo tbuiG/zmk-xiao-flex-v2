@@ -30,14 +30,14 @@
 
         arrow_layer {
             bindings = <
-&kp F1  &kp F2        &kp F3  &kp F4  &kp F5  &kp F6       &kp F7             &kp F8          &kp F9                &kp F10                &kp F11          &kp F12
-&trans  &trans        &trans  &trans  &trans  &trans       &trans             &trans          &kp UP                &trans                 &trans           &kp LA(F4)
-&trans  &trans        &trans  &trans  &trans  &trans       &trans             &kp LEFT_ARROW  &kp DOWN              &kp RIGHT              &trans           &trans
-&trans  &trans        &trans  &trans  &trans  &trans       &kp DOUBLE_QUOTES  &kp SLASH       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans           &trans
-        &kp LEFT_ALT  &trans  &trans  &trans                                  &kp COLON       &kp EQUAL             &kp LEFT_BRACE         &kp RIGHT_BRACE
-                                      &trans  &trans                          &trans          &trans
-                              &trans  &trans  &trans       &trans             &trans          &trans
-                                              &kp RCTRL    &trans
+&kp F1  &kp F2        &kp F3  &kp F4     &kp F5  &kp F6       &kp F7             &kp F8          &kp F9                &kp F10                &kp F11          &kp F12
+&trans  &trans        &trans  &trans     &trans  &trans       &trans             &trans          &kp UP                &trans                 &trans           &kp LA(F4)
+&trans  &trans        &trans  &trans     &trans  &trans       &trans             &kp LEFT_ARROW  &kp DOWN              &kp RIGHT              &trans           &trans
+&trans  &trans        &trans  &trans     &trans  &trans       &kp DOUBLE_QUOTES  &kp SLASH       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans           &trans
+        &kp LEFT_ALT  &trans  &trans     &trans                                  &kp COLON       &kp EQUAL             &kp LEFT_BRACE         &kp RIGHT_BRACE
+                                         &trans  &trans                          &trans          &trans
+                              &kp LC(W)  &trans  &trans       &trans             &kp LC(LS(T))   &kp LC(LS(P))
+                                                 &kp RCTRL    &trans
             >;
         };
 
