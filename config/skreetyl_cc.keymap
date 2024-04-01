@@ -31,10 +31,10 @@
         arrow_layer {
             bindings = <
 &kp F1  &kp F2        &kp F3     &kp F4     &kp F5     &kp F6    &kp F7             &kp F8           &kp F9                &kp F10                &kp F11             &kp F12
-&trans  &trans        &kp LC(W)  &trans     &trans     &trans    &kp SINGLE_QUOTE   &trans           &kp UP                &trans                 &trans              &kp RA(F4)
-&trans  &kp LC(A)     &kp LC(S)  &trans     &trans     &trans    &kp QUESTION       &kp LEFT_ARROW   &kp DOWN              &kp RIGHT              &trans              &trans
-&trans  &kp LC(Z)     &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans    &kp DOUBLE_QUOTES  &kp SLASH        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)
-        &kp LEFT_ALT  &trans     &trans     &trans                                  &kp COLON        &kp EQUAL             &kp LEFT_BRACE         &kp RIGHT_BRACE
+&trans  &trans        &kp LC(W)  &trans     &trans     &trans    &kp COLON          &trans           &kp UP                &trans                 &trans              &kp RA(F4)
+&trans  &kp LC(A)     &kp LC(S)  &trans     &trans     &trans    &kp EQUAL          &kp LEFT_ARROW   &kp DOWN              &kp RIGHT              &trans              &trans
+&trans  &kp LC(Z)     &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans    &kp DOUBLE_QUOTES  &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)
+        &kp LEFT_ALT  &trans     &trans     &trans                                  &kp SLASH        &kp QUESTION          &kp LEFT_BRACE         &kp RIGHT_BRACE
                                             &trans     &trans                       &kp RC(PAGE_UP)  &kp RC(PAGE_DOWN)
                                  &trans     &trans     &trans    &trans             &kp LC(LS(T))    &kp LC(LS(P))
                                                        &trans    &kp LA(F4)
