@@ -47,7 +47,7 @@
 &bt BT_CLR_ALL  &kp POUND     &trans        &trans         &trans         &trans          &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &trans
 &trans          &trans        &trans        &trans         &trans         &trans          &kp PERIOD       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &trans
 &trans          &trans        &trans        &kp LS(LC(C))  &kp LC(LS(V))  &trans          &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp RET       &trans
-                &trans        &trans        &trans         &trans                                          &kp KP_NUMBER_0  &kp PERIOD       &trans           &trans
+                &trans        &trans        &kp KP_NUM     &trans                                          &kp KP_NUMBER_0  &kp PERIOD       &trans           &trans
                                                            &trans         &bootloader                      &trans           &trans
                                             &out OUT_TOG   &trans         &sys_reset      &trans           &trans           &trans
                                                                           &trans          &trans
