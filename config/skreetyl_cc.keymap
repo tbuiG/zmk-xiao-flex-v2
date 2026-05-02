@@ -34,7 +34,7 @@
 &trans  &trans        &kp LC(W)  &trans     &trans          &kp ASTERISK       &kp COLON          &kp LEFT_BRACE      &kp UP                &kp RIGHT_BRACE        &kp PLUS            &kp RA(F4)
 &trans  &kp LC(A)     &kp LC(S)  &kp PIPE   &kp UNDERSCORE  &kp EXCLAMATION    &kp EQUAL          &kp LEFT_ARROW      &kp DOWN              &kp RIGHT              &trans              &trans
 &trans  &kp LC(Z)     &kp LC(X)  &kp LC(C)  &kp LC(V)       &kp QUESTION       &kp DOUBLE_QUOTES  &kp SQT             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)
-        &kp LEFT_ALT  &trans     &trans     &trans                                                &kp SLASH           &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
+        &kp LEFT_ALT  &trans     &trans     &kp ESC                                               &kp SLASH           &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
                                             &trans          &trans                                &kp RC(PAGE_UP)     &kp RC(PAGE_DOWN)
                                  &trans     &trans          &trans             &kp LC(LS(P))      &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)
                                                             &trans             &kp LC(LS(T))
